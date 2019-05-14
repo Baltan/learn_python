@@ -68,3 +68,10 @@ print("len(li):", len(li))
 # del删除列表中指定索引的元素
 del li[-1]
 print("li:", li)
+
+print("------------------------------这是一条分割线------------------------------")
+
+# 循环列表
+# 用Ellipsis（...）表示
+other_li.append(other_li)
+print("other_li:", other_li)
