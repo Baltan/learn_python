@@ -32,6 +32,18 @@ print("len('baltan'):", len('baltan'))
 
 print("------------------------------这是一条分割线------------------------------")
 
+s3 = "abcdefghijklmnopqrstuvwxyz"
+# string[始:终:步伐]
+print("s3[3:10]:", s3[3:10])
+print("s3[:10]:", s3[:10])
+print("s3[10:]:", s3[10:])
+print("s3[::2]:", s3[::2])
+# 倒序排列字符串
+print("s3[::-1]", s3[::-1])
+print("s3[:]:", s3[:])
+
+print("------------------------------这是一条分割线------------------------------")
+
 # format()格式化字符串
 print("{} can be {}".format("strings", "interpolated"))
 print("{0} be nimble, {0} be quick, {0} jump over the {1}".format("Jack", "candle stick"))
