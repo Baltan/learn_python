@@ -4,6 +4,7 @@
 li = []
 other_li = [4, 5, 6]
 copy_li = other_li.copy()
+multiple_li = other_li * 3
 li.append(1)
 li.append(2)
 li.append(3)
@@ -25,6 +26,9 @@ print("other_li:", other_li)
 print("copy_li:", copy_li)
 copy_li.sort()
 print("copy_li:", copy_li)
+copy_li.reverse()
+print("copy_li:", copy_li)
+print("multiple_li:", multiple_li)
 
 print("------------------------------这是一条分割线------------------------------")
 
