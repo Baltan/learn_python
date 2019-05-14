@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 # r''字符串''中的内容不转义
 s1 = r'Hello, \'Adam\''
 s2 = r'''Hello,
