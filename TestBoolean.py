@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 print("bool(0):", bool(0))
 print("bool(1):", bool(1))
 print("bool(\"\"):", bool(""))
