@@ -55,8 +55,8 @@ no_name.show_species()
 print("------------------------------这是一条分割线------------------------------")
 
 
-# Teacher类继承Person类，Python支持多继承，
-# 若是基类中有相同的方法名，而在子类中为重写，从左到右查找基类中是否包含此方法
+# Teacher类继承Person类，如果是继承其他模块中的类，写成"ModuleName.ClassName"，
+# Python支持多继承，若是基类中有相同的方法名，而在子类中为重写，从左到右查找基类中是否包含此方法
 class Teacher(Person):
     # 构造方法
     def __init__(self, age, name):
