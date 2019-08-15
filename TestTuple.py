@@ -23,7 +23,7 @@ print("tup[:]:", tup[:])
 
 print("------------------------------这是一条分割线------------------------------")
 
-# 两个列表相加，原来的列表都不变
+# 两个元组相加，原来的元组都不变
 union_tup = tup + other_tup
 multiple_tup = union_tup * 3
 print("tup:", tup)
@@ -33,7 +33,7 @@ print("multiple_tup:", multiple_tup)
 
 print("------------------------------这是一条分割线------------------------------")
 
-# in判断某个元素在不在列表中
+# in判断某个元素在不在元组中
 print("6 in union_tup:", 6 in union_tup)
 print("7 in union_tup:", 7 in union_tup)
 # len()获取列表长度
