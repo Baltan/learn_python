@@ -57,6 +57,8 @@ print("------------------------------这是一条分割线----------------------
 li.extend(other_li)
 print("li:", li)
 print("other_li:", other_li)
+li.extend(li)
+print("li:", li)
 
 print("------------------------------这是一条分割线------------------------------")
 
@@ -75,3 +77,4 @@ print("------------------------------这是一条分割线----------------------
 # 用Ellipsis（...）表示
 other_li.append(other_li)
 print("other_li:", other_li)
+print("len(other_li):", len(other_li))
